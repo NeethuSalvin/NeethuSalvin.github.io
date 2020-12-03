@@ -22,11 +22,12 @@
     $(window).on("load", function () {    
 
         //loader and Intro Animations
-        $('#page-loader').delay(1000).fadeOut(400, function(){});    
+        $('#page-loader').delay(100).fadeOut(400, function(){});    
 
         // Calling functions here
         adjustViewport();
         AdjustingBannerSpacing();
+           
 
     });
 
@@ -128,7 +129,7 @@
         });    
 
         //=====>  Countdown (Edit this with your own date)  <====
-        $("#bearr-countdown-item").countdown( "2018/07/01 8:30:30" , function (event) {
+        $("#bearr-countdown-item").countdown( "2021/03/03 7:50:30" , function (event) {
             var $this = $(this).html(event.strftime('' + '<div class="countdown-col"><span class="countdown-time"> %-D </span> <span class="countdown-type"> Days </span></div> ' + '<div class="countdown-col"><span class="countdown-time"> %H </span> <span class="countdown-type">Hours </span></div>' + '<div class="countdown-col"><span class="countdown-time"> %M </span> <span class="countdown-type">Minutes </span></div>' + '<div class="countdown-col"><span class="countdown-time"> %S </span> <span class="countdown-type">Seconds </span></div>'));
         });
 
