@@ -2294,7 +2294,7 @@ a:focus {
   -moz-transform: translate(0, -10px);
 }
 .events-reminder-item header {
-  background-color: #d75a4a;
+  background-color: red;
   padding: 15px 25px;
 }
 .events-reminder-item header .events-item-heading {
